@@ -1,2 +1,4 @@
-package OneTimePad;public class CipherModel {
+package OneTimePad;
+
+public class CipherModel {
 }
