@@ -1,0 +1,54 @@
+/* General body settings */
+.root {
+    -fx-font-family: 'Arial';
+    -fx-font-size: 14px;
+}
+
+/* Styling for Text Fields */
+.text-field {
+    -fx-padding: 5px;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5px;
+}
+
+/* Styling for Combo Boxes */
+.combo-box {
+    -fx-padding: 5px;
+    -fx-background-color: white;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5px;
+}
+
+/* Styling for Buttons */
+.button {
+    -fx-background-color: #5cb85c;
+    -fx-text-fill: white;
+    -fx-padding: 8px 15px;
+    -fx-border-radius: 5px;
+}
+
+.button:hover {
+    -fx-background-color: #4cae4c;
+}
+
+/* Styling for Labels */
+.label {
+    -fx-text-fill: #333;
+}
+
+/* Styling for Grid Panes */
+.grid-pane {
+    -fx-padding: 10px;
+    -fx-hgap: 10px; /* Horizontal gap between grid cells */
+    -fx-vgap: 10px; /* Vertical gap between grid cells */
+    -fx-background-color: #f7f7f7;
+}
+
+/* Styling for individual panes (data entry, control, display) */
+#dataEntry, #controlArea, #dataDisplay {
+    -fx-border-color: #ddd;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-background-color: #fff;
+    -fx-padding: 15px;
+}
