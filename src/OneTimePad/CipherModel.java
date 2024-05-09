@@ -37,20 +37,22 @@ public class CipherModel {
 
     // Nachricht entschlüsseln
     public String decrypt(String encryptedMessage) {
-        StringBuilder decrypted = new StringBuilder(); // Ergebnis wird Schrittweise aufgebaut
+        StringBuilder decrypted = new StringBuilder();
+        resetPad(); // Stellt sicher, dass currentPosition auf 0 gesetzt ist
         for (char character : encryptedMessage.toCharArray()) {
             if (currentPosition >= oneTimePad.size()) {
                 throw new IllegalStateException("One-Time Pad ist ausgeschöpft.");
             }
             int encryptedValue = character - 32;
-            int padValue = oneTimePad.get(currentPosition++) - 32;
+            int padValue = oneTimePad.get(currentPosition) - 32;
             char decryptedChar = (char) (((encryptedValue - padValue + 95) % 95) + 32);
             decrypted.append(decryptedChar);
+            currentPosition++;
         }
         return decrypted.toString();
     }
 
     public void resetPad() {
         currentPosition = 0;
-    } // Index auf 0
+    }
 }
