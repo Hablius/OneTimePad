@@ -23,6 +23,7 @@ public class CipherModel {
     // Nachricht verschlüsseln
     public String encrypt(String message) {
         StringBuilder encrypted = new StringBuilder();
+        resetPad(); // Stellt sicher, dass currentPosition auf 0 gesetzt ist
         for (char character : message.toCharArray()) {
             if (currentPosition >= oneTimePad.size()) {
                 throw new IllegalStateException("One-Time Pad ist ausgeschöpft.");
