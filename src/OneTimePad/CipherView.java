@@ -19,7 +19,9 @@ public class CipherView {
         VBox root = new VBox(10);  // Vertikales Layout
         root.getChildren().addAll(inputArea, encryptButton, decryptButton, fileButton, statusLabel, outputArea);
 
-        Scene scene = new Scene(root, 700, 500);  // Größe des GUI
+        Scene scene = new Scene(root, 700, 500);// Größe des GUI
+        scene.getStylesheets().add(
+                getClass().getResource("CipherMain.css").toExternalForm());
         stage.setTitle("One-Time-Pad");
         stage.setScene(scene);  // Szene zuweisen
     }
