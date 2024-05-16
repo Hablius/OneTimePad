@@ -1,5 +1,5 @@
-Autoren: Joel Häfeli, Emil Blank
-Dokumentation unter: OneTimePad Dokumentation.pdf
+##### Autoren: Joel Häfeli, Emil Blank
+##### Dokumentation unter: OneTimePad Dokumentation.pdf
 
 ## Benutzung der Anwendung
 
