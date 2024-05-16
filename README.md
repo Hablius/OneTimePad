@@ -41,3 +41,7 @@ Sollten Probleme bei der Nutzung der Anwendung auftreten:
 
 - Nutzen Sie für jede Nachricht ein neues Pad, um die Sicherheit zu maximieren.
 - Vermeiden Sie die Wiederverwendung von Pads, da dies die Sicherheit der Verschlüsselung erheblich mindert.
+
+### Gruppenmitglieder
+- Emil Blank
+- Joël Häfeli
