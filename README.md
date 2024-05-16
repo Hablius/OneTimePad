@@ -1,3 +1,6 @@
+Autoren: Joel Häfeli, Emil Blank
+Dokumentation unter: OneTimePad Dokumentation.pdf
+
 ## Benutzung der Anwendung
 
 Die One-Time-Pad Verschlüsselungsanwendung bietet eine intuitive Benutzeroberfläche zum Verschlüsseln und Entschlüsseln von Nachrichten mit einem One-Time-Pad. Folgen Sie diesen Schritten, um die Anwendung effektiv zu nutzen:
