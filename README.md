@@ -1,6 +1,5 @@
 Autoren: Joel Häfeli, Emil Blank
 Dokumentation unter: OneTimePad Dokumentation.pdf
-Anwendung unter: src/OneTimePad
 
 ## Benutzung der Anwendung
 
